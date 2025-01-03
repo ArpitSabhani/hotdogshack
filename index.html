@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTDOG SHACK</title>
+
+    <!--============= Open Graph / Facebook =============-->
+    <meta property="og:title" content="Your Page Title Here" />
+    <meta property="og:description" content="Description of your page here." />
+    <meta property="og:image" content="URL to your image here" />
+    <meta property="og:url" content="URL of your page here" />
+    <meta property="og:site_name" content="Your Site Name Here" />
+    <meta property="og:type" content="website" />
+
+    <!--============= Twitter =============-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@yourtwitterhandle" />
+    <meta name="twitter:title" content="Your Page Title Here" />
+    <meta name="twitter:description" content="Description of your page here." />
+    <meta name="twitter:image" content="URL to your image here" />
+    <meta name="twitter:image:alt" content="A brief description of your image" />
+    <meta name="twitter:url" content="URL of your page here" />
+
+    <!--============= Additional Metadata =============-->
+    <meta name="keywords" content="your,keywords,here" />
+
+    <!--============= Canonical Link =============-->
+    <link rel="canonical" href="URL of your canonical page here" />
+
+    <!--============= Favicon =============-->
+    <link rel="icon" type="image/x-icon" href="./img/Hotdog-logo.png" />
+
+
+
+    <!--============= jquary link =============-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- =============Boostrap link================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- =================== font awasome ===========================     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- ======================= Link Swiper's CSS ====================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- ============================== aos libarary =================================== -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- ======================= Link Swiper's CSS ====================== -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- =============== css link ================ -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+</head>
+
+<body>
+    <!-- Preload the Whole Page -->
+    <div id="loading">
+        <div id="loading-animation">&nbsp;</div>
+    </div>
+
+    <div class="main-body">
+
+        <!-- navbar start -->
+        <div class="header fixed navbar navbar-expand-lg">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/Hotdog-logo.png" alt="">
+                    <a href="">HOTDOG SHACK</a>
+                </a>
+            </div>
+            <div class="menu-section">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://www.ubereats.com/ca/store/hot-dog-shack/3tavA0XFUue3ayOAw9mMOA"
+                            target="_blank">Uber eats </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-icon open-menu">
+                <div class="position-relative w-100 h-100">
+                    <span id="span1">
+                        <div class="animateline"></div>
+                    </span>
+                    <span id="span2">
+                        <div class="animateline"></div>
+                    </span>
+                    <span id="span3">
+                        <div class="animateline"></div>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- navbar end -->
+
+        <!-- hero section start -->
+        <section class="contain-padding hero-section" id="home">
+            <div class="hero-padding">
+                <div class="swiper hero-swiper">
+                    <!-- <div class="col-md-12 col-lg-6 col-xl-6 my-auto hero-col-1">
+                        <div class="hero-text">
+                            <h1 class="fw-bold">Lorem ipsum dolor sit amet, CONSECTETUER</h1>
+                            <a href="#contact" class="btn text-uppercase">Lorem ipsum</a>
+                        </div>
+                    </div> -->
+
+                    <div class="swiper-wrapper">
+                        <div class="hero-col-2 swiper-slide">
+                            <div class="hero-img">
+                                <img src="./img/slide-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="hero-col-2 swiper-slide">
+                            <div class="hero-img">
+                                <img src="./img/slide-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="hero-col-2 swiper-slide">
+                            <div class="hero-img">
+                                <img src="./img/slide-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="hero-col-2 swiper-slide">
+                            <div class="hero-img">
+                                <img src="./img/slide-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-round-dots"></div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
+
+        <!-- aboout-us start -->
+        <section class="aboutus" id="about">
+            <div class="container">
+                <div class="row about-row">
+                    <div class="col-md-12 col-lg-5 col-xl-4 about-left my-auto">
+                        <div class="aboutimg">
+                            <img src="./img/aboutimg.jpg" alt="">
+                        </div>
+                        <div class="about-back">
+                            <img src="./img/about-back-img.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-7 col-xl-8 about-right my-auto">
+                        <div class="aboustext-heading heading">
+                            <h1>about us</h1>
+                        </div>
+                        <div class="qua-img">
+                            <img src="./img/quatation.png" alt="">
+                            <div class="abouttext">
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odit neque
+                                    perspiciatis
+                                    sint cumque delectus voluptatem incidunt, numquam obcaecati hic consequuntur iure
+                                    quia
+                                    tempore excepturi. Nisi nostrum iste voluptatum quaerat.Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Corrupti odit neque
+                                    perspiciatis
+                                    sint cumque delectus voluptatem incidunt, numquam obcaecati hic consequuntur iure
+                                    quia
+                                    tempore excepturi. Nisi nostrum iste voluptatum quaerat. sint cumque delectus
+                                    voluptatem
+                                    incidunt, numquam obcaecati hic consequuntur iure quia
+                                    tempore excepturi. Nisi nostrum iste voluptatum quaerat.</p>
+                            </div>
+                        </div>
+                        <div class="about-dots">
+                            <img src="./img/white-dots.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-us end -->
+
+        <!-- hotdog section start -->
+        <section class="hotdog" id="hotdog">
+            <div class="container">
+                <div class="heading">
+                    <h1>Hotdog</h1>
+                    <div class="round-img">
+                        <img src="./img/round-line.png" alt="">
+                    </div>
+                    <div class="hotdog-img">
+                        <img src="./img/hotdog.png" alt="">
+                    </div>
+
+                </div>
+                <div class="row hotdog-row swiper hotdog-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="hotdog-card">
+                                <figure><img src="./img/hotdog-1.jpg" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="hotdog-card">
+                                <figure><img src="./img/hot-dog-2.webp" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="hotdog-card">
+                                <figure><img src="./img/hotdog-3.avif" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="hotdog-card">
+                                <figure><img src="./img/hotdog-1.jpg" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="hotdog-card">
+                                <figure><img src="./img/hot-dog-2.webp" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="hotdog-card">
+                                <figure><img src="./img/hotdog-3.avif" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-next"></div>
+                    <div class="swiper-button-prev swiper-prev"></div>
+                </div>
+
+                <div class="row nachos-row swiper nachos-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="nachos-card">
+                                <figure><img src="./img/hotdog-1.jpg" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="nachos-card">
+                                <figure><img src="./img/hot-dog-2.webp" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="nachos-card">
+                                <figure><img src="./img/hotdog-3.avif" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="nachos-card">
+                                <figure><img src="./img/hotdog-1.jpg" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="nachos-card">
+                                <figure><img src="./img/hot-dog-2.webp" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3 swiper-slide">
+                            <div class="nachos-card">
+                                <figure><img src="./img/hotdog-3.avif" alt=""></figure>
+                                <h2>lorem ipsum</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-next"></div>
+                    <div class="swiper-button-prev swiper-prev"></div>
+                </div>
+
+            </div>
+            <div class="franchfries">
+                <img src="./img/frachfrize.png" alt="">
+            </div>
+        </section>
+        <!-- hotdog section end -->
+
+        <!-- nachos section start -->
+        <section class="nachos" id="nachos">
+            <div class="container">
+                <div class="heading">
+                    <h1>Discover our delicious menu and find your next favorite hotdog</h1>
+                </div>
+              
+            </div>
+        </section>
+        <!-- nachos section end -->
+
+        <!-- testimonial start -->
+        <section class="testimonial" id="testimonial">
+            <div class="container">
+                <div class="reviw-flex">
+                    <div class="testimonial-heading heading">
+                        <h1>Reviews</h1>
+                    </div>
+                    <a href="#">
+                        <div class="google-flex">
+                            <div class="google-top-icon">
+                                <img src="./img/google-icon 3.svg" alt="">
+                            </div>
+                            <div class="google-text">
+                                <p class="mb-0">Click to give reviews</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="round-img-left">
+                        <img src="./img/round-line.png" alt="">
+                    </div>
+
+                </div>
+                <div class="row mt-5 swiper testimonial_swiper wrapper">
+                    <div class="swiper-wrapper">
+                        <div class="col-md-4 swiper-slide hover-item">
+                            <div>
+                                <div class="testimonial-wrapper">
+                                    <div class="testimonial-flex testimonial-logo">
+                                        <div>
+                                            <img src="./img/testimonial-img-1.jpg" class="img-logo" alt="">
+                                            <span class="mb-0 px-2 fw-bold">John Doe</span>
+                                        </div>
+                                        <div>
+                                            <a href="#"><img src="./img/google-icon 3.svg" class="google-icon"
+                                                    alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="text-center testimonial-star">
+                                        <i class="fa-solid fa-star text-warning"></i>
+                                        <i class="fa-solid fa-star text-warning"></i>
+                                        <i class="fa-solid fa-star text-warning"></i>
+                                        <i class="fa-solid fa-star text-warning"></i>
+                                        <i class="fa-solid fa-star text-warning"></i>
+                                    </div>
+                                    <p class="testmonial-text mt-2">Test .
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 swiper-slide hover-item">
+                            <div class="testimonial-wrapper">
+                                <div class="testimonial-flex testimonial-logo">
+                                    <img src="./img/testimonial-img-1.jpg" class="img-logo" alt="">
+                                    <div>
+                                        <p class="mb-0 fw-bold">John Doe</p>
+                                    </div>
+                                    <img src="./img/google-icon 3.svg" class="google-icon" alt="">
+                                </div>
+                                <div class="text-center testimonial-star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class=" testmonial-text mt-2">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptatum animi
+                                        exercitationem, dignissimos fuga accusantium in mollitia laborum voluptates quod
+                                        ullam
+                                        error nisi, rem id voluptate! Laudantium deleniti aspernatur debitis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 swiper-slide hover-item">
+                            <div class="testimonial-wrapper">
+                                <div class="testimonial-flex testimonial-logo">
+                                    <img src="./img/testimonial-img-1.jpg" class="img-logo" alt="">
+                                    <div>
+                                        <p class="mb-0 fw-bold">John Doe</p>
+                                    </div>
+                                    <img src="./img/google-icon 3.svg" class="google-icon" alt="">
+                                </div>
+                                <div class="text-center testimonial-star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="testmonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Non
+                                        voluptatum animi
+                                        exercitationem, dignissimos fuga accusantium in mollitia laborum voluptates quod
+                                        ullam
+                                        error nisi, rem id voluptate! Laudantium deleniti aspernatur debitis.Lorem
+                                        ipsum,
+                                        dolor sit amet consectetur adipisicing elit. Non voluptatum animi
+                                        exercitationem, dignissimos fuga accusantium in mollitia laborum voluptates quod
+                                        ullam
+                                        error nisi, rem id voluptate! Laudantium delenit
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptatum animi
+                                        exercitationem, dignissimos fuga accusantium in mollitia laborum voluptates quod
+                                        ullam
+                                        error nisi, rem id voluptate! Laudantium deleniti aspernatur debitis.i
+                                        aspernatur
+                                        debitis.
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptatum animi
+                                        exercitationem, dignissimos fuga accusantium in mollitia laborum voluptates quod
+                                        ullam
+                                        error nisi, rem id voluptate! Laudantium deleniti aspernatur debitis.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 swiper-slide hover-item">
+                            <div class="testimonial-wrapper">
+                                <div class="testimonial-flex testimonial-logo">
+                                    <img src="./img/testimonial-img-1.jpg" class="img-logo" alt="">
+                                    <div>
+                                        <p class="mb-0 fw-bold">John Doe</p>
+                                    </div>
+                                    <img src="./img/google-icon 3.svg" class="google-icon" alt="">
+                                </div>
+                                <div class="text-center testimonial-star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="testmonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Non
+                                        voluptatum animi
+                                        exercitationem, dignissimos fuga accusantium in mollitia laborum voluptates quod
+                                        ullam
+                                        error nisi, rem id voluptate! Laudantium deleniti aspernatur debitis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 swiper-slide hover-item">
+                            <div class="testimonial-wrapper">
+                                <div class="testimonial-flex testimonial-logo">
+                                    <img src="./img/testimonial-img-1.jpg" class="img-logo" alt="">
+                                    <div>
+                                        <p class="mb-0 fw-bold">John Doe</p>
+                                    </div>
+                                    <img src="./img/google-icon 3.svg" class="google-icon" alt="">
+                                </div>
+                                <div class="text-center testimonial-star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="testmonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Non
+                                        voluptatum animi
+                                        exercitationem, dignissimos fuga accusantium in mollitia laborum voluptates quod
+                                        ullam
+                                        error nisi, rem id voluptate! Laudantium deleniti aspernatur debitis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 swiper-slide hover-item">
+                            <div class="testimonial-wrapper">
+                                <div class="testimonial-flex testimonial-logo">
+                                    <img src="./img/testimonial-img-1.jpg" class="img-logo" alt="">
+                                    <div>
+                                        <p class="mb-0 fw-bold">John Doe</p>
+                                    </div>
+                                    <img src="./img/google-icon 3.svg" class="google-icon" alt="">
+                                </div>
+                                <div class="text-center testimonial-star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="testmonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Non
+                                        voluptatum animi
+                                        exercitationem, dignissimos fuga accusantium in mollitia laborum voluptates quod
+                                        ullam
+                                        error nisi, rem id voluptate! Laudantium deleniti aspernatur debitis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-round-dots"></div>
+                </div>
+
+            </div>
+            <div class="cock-img">
+                <img src="./img/cock.png" alt="">
+            </div>
+        </section>
+        <!-- testimonial end -->
+
+        <!-- contact us start -->
+        <section class="contact-us" id="contact">
+            <div class="container">
+                <div class="contact-title heading">
+                    <h1>Contact us</h1>
+                    <div class="burger-img">
+                        <img src="./img/burger.png" alt="">
+                    </div>
+                </div>
+                <div class="row contact-left-part">
+                    <div class="col-md-6 contect-left">
+                        <form>
+                            <div class="contact-box">
+                                <input type="text" class="form-control" placeholder="Enter Your Name"
+                                    aria-label="First name">
+                            </div>
+                            <div class="contact-box">
+                                <input type="email" class="form-control" placeholder="Enter Your email"
+                                    aria-label="First name">
+                            </div>
+                            <div class="contact-box">
+                                <input type="tel" class="form-control" placeholder="Enter Your Phone No"
+                                    aria-label="First name">
+                            </div>
+                            <div class="contact-box">
+                                <textarea name="message" class="contact-area" id="message" cols="30" rows="5"
+                                    class="form-control" placeholder="Write a message..."></textarea>
+                            </div>
+                            <div class="contact-btn">
+                                <button>Submit</button>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="col-md-6 my-auto contect-right">
+                        <div>
+                            <iframe src="" height="480"
+                                style="border:0; border-radius: 10px; width: 100%;  box-shadow: 0px 0px 10px #dddcdc;"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact us end -->
+
+        <!-- footer start -->
+        <section class="footer hover-item1">
+            <div class="container">
+                <div class="row footer-row hover-item1">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="left-part">
+                            <a href="./index.html"><img src="./img/Hotdog-logo.png" alt=""><span>HOTDOG SHACK</span></a>
+                            <p class="text-white">SIZZLE SNAP SAVOR Flavors Redefined and More</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4 middle-part">
+                        <div class="right-part">
+                            <div class="footer-content">
+                                <h4 class="text-white text-capitalize">Contact us</h4>
+                                <p class="mb-0 text-white"><a href="mailto:info@hotdogshack" class="text-white"><i
+                                            class="fa-solid fa-envelope text-white"></i>info@hotdogshack</a></p>
+                                <p class=" text-white"><a href="tel:+123456789" class="text-white"><i
+                                            class="fa-solid fa-phone-volume text-white"></i>+123456789</a></p>
+                            </div>
+                            <div class="link">
+                                <a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-instagram instagram"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"> <i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="right-part">
+                            <div class="mt-4">
+                                <h4 class="text-white text-capitalize">address</h4>
+                                <p class="text-white"><i class="fa-solid fa-location-dot text-white"></i>Lorem ipsum
+                                    dolor sit amet,
+                                    consectetuer adipiscing
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center footer-link">
+                <p class="text-capitalize text-white mb-0 copyright-text">Copyright © 2023 All Rights Reserved By Hotdog
+                    shack</p>
+                <p class="text-capitalize text-white mb-0 pb-1">Design & Develop By <a href="https://aartisto.ca"
+                        class="text-white bg-hover text-capitalize" target="_blank">Aartisto Technologies Inc.</a></p>
+            </div>
+        </section>
+        <!-- footer end -->
+
+    </div>
+
+    <!-- boostrap javascript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- slick slider -->
+    <script type="" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".hero-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            autoplay: true,
+            grabCursor: true,
+            loop: true,
+            speed: 1000,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                280: {
+                    slidesPerView: 1,
+                },
+                576: {
+                    slidesPerView: 1,
+                },
+                900: {
+                    slidesPerView: 1,
+                },
+                1370: {
+                    slidesPerView: 1,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".hotdog-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            autoplay: true,
+            grabCursor: true,
+            loop: true,
+            speed: 1500,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                280: {
+                    slidesPerView: 1,
+                },
+                576: {
+                    slidesPerView: 1,
+                },
+                900: {
+                    slidesPerView: 2,
+                },
+                1370: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".nachos-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            autoplay: true,
+            grabCursor: true,
+            loop: true,
+            speed: 1000,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                280: {
+                    slidesPerView: 1,
+                },
+                576: {
+                    slidesPerView: 1,
+                },
+                900: {
+                    slidesPerView: 2,
+                },
+                1370: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".testimonial_swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            autoplay: true,
+            loopFillGroupWithBlank: true,
+            grabCursor: true,
+            loop: true,
+            speed: 2000,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                280: {
+                    slidesPerView: 1,
+                },
+                576: {
+                    slidesPerView: 1,
+                },
+                900: {
+                    slidesPerView: 2,
+                },
+                1370: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
